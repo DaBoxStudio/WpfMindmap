@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net7.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<UseWPF>true</UseWPF>
+
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="ModernWpfUI" Version="0.9.7-preview.2" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Page Include="App.xaml" />
+	</ItemGroup>
+
+
+	<ItemGroup>
+		<ProjectReference Include="..\DaBox.MindmapControl\DaBox.MindmapControl.csproj" />
+	</ItemGroup>
+
+
+	<ItemGroup>
+		<Reference Include="DaBox.Framework">
+			<HintPath>$(SolutionDir)..\..\Library\Framework\$(ConfigurationName)\DaBox.Framework.dll</HintPath>
+		</Reference>
+		<Reference Include="DaBox.LSB.Data">
+			<HintPath>$(SolutionDir)..\..\Library\LSB\$(ConfigurationName)\DaBox.LSB.Data.dll</HintPath>
+		</Reference>
+		<Reference Include="DaBox.Framework.WPF.ModernUI">
+			<HintPath>$(SolutionDir)..\..\Library\Framework\$(ConfigurationName)\DaBox.Framework.WPF.ModernUI.dll</HintPath>
+		</Reference>
+		<Reference Include="DaBox.Framework.WPF.Controls">
+			<HintPath>$(SolutionDir)..\..\Library\Framework\$(ConfigurationName)\DaBox.Framework.WPF.Controls.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+
+	<ItemGroup>
+		<None Update="root.json">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+</Project>

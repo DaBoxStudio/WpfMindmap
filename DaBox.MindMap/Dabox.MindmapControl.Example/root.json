@@ -1,0 +1,47 @@
+﻿{
+  "CampaignList": [
+    {
+      "SKU": "12-3123-1231",
+      "Budget": 0.0,
+      "GroupList": [
+        {
+          "Targeting": {
+            "$type": "DaBox.LSB.Data.AutoTargeting, DaBox.LSB.Data",
+            "BidDefault": 123.0,
+            "ID": "002aa67a-b87e-4234-bca8-b41d92575f56",
+            "OnlineState": "New"
+          },
+          "DefaultBid": 0.4,
+          "ID": "6445a06e-76d4-4367-a746-a1f5a1151eec",
+          "Name": "123",
+          "OnlineState": "New"
+        },
+        {
+          "Targeting": {
+            "$type": "DaBox.LSB.Data.AutoTargeting, DaBox.LSB.Data",
+            "BidDefault": 4562.0,
+            "ID": "8fd24064-78ff-4dae-b5bc-2ee4b0f62fd3",
+            "OnlineState": "New"
+          },
+          "DefaultBid": 0.4,
+          "ID": "8f7c4b6b-6096-4c30-9571-3a697ef09d0b",
+          "Name": "345",
+          "OnlineState": "New"
+        }
+      ],
+      "CampaignType": "Auto",
+      "BiddingStrategy": "UpAndDown",
+      "PlacementBiddingType": "PLACEMENT_TOP",
+      "PlacementBiddingPercentage": 0,
+      "TargetingType": "AUTO",
+      "Validated": false,
+      "ID": "a8c358ab-05de-4053-a934-a661ae01d0fc",
+      "Name": "123",
+      "OnlineState": "New"
+    }
+  ],
+  "IsPushedToPublishAPI": false,
+  "ID": "1f62413c-4d29-4ee1-b468-afbbf76b21fe",
+  "Name": "New Template",
+  "OnlineState": "New"
+}

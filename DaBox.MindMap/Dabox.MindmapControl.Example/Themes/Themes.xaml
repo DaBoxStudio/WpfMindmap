@@ -1,0 +1,17 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <SolidColorBrush Color="Transparent" x:Key="MindNode_BorderBrush"/>
+    <SolidColorBrush Color="Red" x:Key="MindNode_Selected_BorderBrush"/>
+    <Thickness x:Key="MindNode_BorderThickness">4,0,4,0</Thickness>
+    <CornerRadius x:Key="MindNode_CornerRadius">5</CornerRadius>
+
+    <SolidColorBrush Color="#FF1F2766" x:Key="DefaultNode_BackgroundBrush"/>
+    <SolidColorBrush Color="#FF0098B8" x:Key="AutoCampaignNode_BackgroundBrush"/>
+    <SolidColorBrush Color="#FFB7C82A" x:Key="KeyWordsCampaignNode_BackgroundBrush"/>
+    <SolidColorBrush Color="#FFFFAD37" x:Key="ProductCampaignNode_BackgroundBrush"/>
+
+    <SolidColorBrush Color="White" x:Key="TopNode_ForegroundBrush"/>
+    <SolidColorBrush Color="#FF1F2766" x:Key="ChildNode_ForegroundBrush"/>
+    
+</ResourceDictionary>

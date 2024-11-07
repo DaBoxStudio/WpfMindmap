@@ -1,0 +1,10 @@
+﻿<Window x:Class="DaBox.MindmapControl.Example.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="450" Width="800"
+        xmlns:control="clr-namespace:Dabox.MindmapControl;assembly=Dabox.MindmapControl"
+        x:Name="Window">
+    <Grid>
+        <control:MindMapControl RootNode="{Binding RootNode, ElementName=Window}" Layout="Star"/>
+    </Grid>
+</Window>
